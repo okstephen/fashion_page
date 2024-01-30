@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 20px;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+nav div {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+nav h1 {
+    font-size: 1.8rem;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+
+nav iconify-icon {
+    font-size: 2rem;
+}
+
+#red {
+    color: #D700D4;
+    position: relative;
+}
+
+#pink {
+    color: #FF1144;
+    position: absolute;
+    left: 2.4%;
+}
+
+nav ul {
+    display: flex;
+    gap: 10px;
+    font-weight: 500;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+header {
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+}
+
+header .main {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 5px 120px;
+    justify-content: space-between;
+    width: 100%;
+
+}
+
+header .main div {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: start;
+}
+
+header .main div h1 {
+    font-weight: lighter;
+    font-size: 3rem;
+}
+
+header .main div p {
+    font-size: smaller;
+}
+
+button[type="submit"] {
+    border: 1px solid white;
+    padding: 10px 20px;
+    background: linear-gradient(to right, #D700D4, #FF1144);
+    border-radius: 20px;
+    color: white;
+    font-size: x-small;
+}
+
+header .main span {
+    border: 1px none black;
+    width: 350px;
+    height: 300px;
+    background: url(https://media.istockphoto.com/id/1418580542/photo/confident-positive-handsome-indian-or-arabian-young-man-holding-smartphone-in-hand-chatting.webp?b=1&s=170667a&w=0&k=20&c=LNEWRn7om2HaX-oFiKY7THUNLrP0R2RmFUpoK1n8SHU=);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
